@@ -11,6 +11,9 @@
                 x.preventDefault();
 
                 const filterName = item.getAttribute('data-filter');
+
+                console.log(filterName);
+
                 controll.forEach(link => {  
                     link.closest('.filter__item').classList.remove(active);
                     })
